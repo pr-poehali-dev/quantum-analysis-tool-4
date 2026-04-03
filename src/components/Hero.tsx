@@ -28,14 +28,12 @@ export default function Hero() {
       </motion.div>
 
       <div className="relative z-10 text-center text-white" style={{ textShadow: "0 2px 20px rgba(0,0,0,0.6)", marginTop: "3cm" }}>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ЕШЬ ДЁШЕВО
-        </h1>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 text-[#ffffff] text-left">ДЕШЕВАЯ ЕДА</h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Находи вкусные места рядом с тобой — без переплат. Сотни точек с едой за копейки в одном приложении.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-          <button className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          <button className="bg-white text-black py-3 uppercase tracking-wide text-sm font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer px-8">
             Найти еду рядом
           </button>
           <button
