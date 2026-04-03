@@ -1,5 +1,6 @@
 import { useScroll, useTransform, motion } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import AddPlaceModal from "./AddPlaceModal";
 
 export default function Hero() {
   const container = useRef<HTMLDivElement>(null);
@@ -8,6 +9,7 @@ export default function Hero() {
     offset: ["start start", "end start"],
   });
   const y = useTransform(scrollYProgress, [0, 1], ["0vh", "50vh"]);
+  const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <div
@@ -36,11 +38,16 @@ export default function Hero() {
           <button className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
             Найти еду рядом
           </button>
-          <button className="bg-transparent text-white border border-white px-8 py-3 uppercase tracking-wide text-sm font-medium hover:bg-white hover:text-black transition-colors duration-300 cursor-pointer">
+          <button
+            onClick={() => setModalOpen(true)}
+            className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer"
+          >
             Добавить точку
           </button>
         </div>
       </div>
+
+      <AddPlaceModal open={modalOpen} onClose={() => setModalOpen(false)} />
     </div>
   );
 }
