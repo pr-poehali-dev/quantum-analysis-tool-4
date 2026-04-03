@@ -21,8 +21,8 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/files/a146a7ca-2e87-41e1-83f3-2f9b265295c9.jpg"
-          alt="Street scene"
+          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/files/c48a70e6-0d7b-4133-bedc-cb9e7c68892e.jpg"
+          alt="Street chef near Kremlin"
           className="w-full h-full object-cover object-center"
         />
       </motion.div>
