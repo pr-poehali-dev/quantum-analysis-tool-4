@@ -23,7 +23,7 @@ export default function Hero() {
         <img
           src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/bucket/4f646921-065a-4844-be81-f443841b9909.JPG"
           alt="Map of Russia"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[center_30%]"
         />
       </motion.div>
 
