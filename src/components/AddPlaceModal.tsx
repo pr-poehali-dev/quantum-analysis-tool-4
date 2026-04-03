@@ -114,11 +114,11 @@ export default function AddPlaceModal({ open, onClose }: AddPlaceModalProps) {
                     />
                   </div>
                   <div>
-                    <label className="text-xs uppercase tracking-wide text-neutral-500 mb-1 block">Тип кухни</label>
+                    <label className="text-xs uppercase tracking-wide text-neutral-500 mb-1 block">Самая дешёвая и сытная позиция</label>
                     <input
                       value={form.cuisine}
                       onChange={(e) => setForm({ ...form, cuisine: e.target.value })}
-                      placeholder="Домашняя, фастфуд, азиатская..."
+                      placeholder="Например: борщ + хлеб за 90₽"
                       className="w-full border border-neutral-300 px-4 py-2 text-sm focus:outline-none focus:border-black transition-colors"
                     />
                   </div>
