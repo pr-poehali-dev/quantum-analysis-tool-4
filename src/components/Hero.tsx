@@ -21,7 +21,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/files/76bf6502-59bd-447e-9d29-612ac087d49e.jpg"
+          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/bucket/4f646921-065a-4844-be81-f443841b9909.JPG"
           alt="Map of Russia"
           className="w-full h-full object-cover"
         />
