@@ -19,19 +19,22 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/files/25a5b12d-5d08-4aca-b60e-aaf9738896cd.jpg"
+          alt="Street food market"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white" style={{ textShadow: "0 2px 20px rgba(0,0,0,0.6)" }}>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ЕШЬ ДЁШЕВО
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Находи вкусные места рядом с тобой — без переплат. Сотни точек с едой за копейки в одном приложении.
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Найти еду рядом
+        </button>
       </div>
     </div>
   );
