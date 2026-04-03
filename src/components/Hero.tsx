@@ -32,9 +32,14 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Находи вкусные места рядом с тобой — без переплат. Сотни точек с едой за копейки в одном приложении.
         </p>
-        <button className="mt-8 bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
-          Найти еду рядом
-        </button>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+          <button className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-medium hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+            Найти еду рядом
+          </button>
+          <button className="bg-transparent text-white border border-white px-8 py-3 uppercase tracking-wide text-sm font-medium hover:bg-white hover:text-black transition-colors duration-300 cursor-pointer">
+            Добавить точку
+          </button>
+        </div>
       </div>
     </div>
   );
