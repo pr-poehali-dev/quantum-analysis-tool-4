@@ -21,7 +21,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/files/5711803a-c66a-40d0-903c-051c08483e64.jpg"
+          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/files/b2323475-2977-4f1e-9a99-4003f76441bd.jpg"
           alt="Homeless street chef near Nizhny Novgorod Kremlin"
           className="w-full h-full object-cover object-center"
         />
