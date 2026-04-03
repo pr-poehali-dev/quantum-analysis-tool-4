@@ -21,9 +21,9 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/bucket/4f646921-065a-4844-be81-f443841b9909.JPG"
+          src="https://cdn.poehali.dev/projects/b5186852-b8c2-48b9-b29f-5637c23a4deb/files/d5ea0770-6c38-4c55-b693-ca0d4b6d9835.jpg"
           alt="Map of Russia"
-          className="w-full h-full object-cover object-[center_30%]"
+          className="w-full h-full object-cover object-center"
         />
       </motion.div>
 
