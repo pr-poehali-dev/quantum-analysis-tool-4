@@ -92,7 +92,7 @@ export default function AddPlaceModal({ open, onClose }: AddPlaceModalProps) {
                       />
                     </div>
                     <div className="flex-1">
-                      <label className="text-xs uppercase tracking-wide text-neutral-500 mb-1 block">Средний чек (₽) *</label>
+                      <label className="text-xs uppercase tracking-wide text-neutral-500 mb-1 block">Цена за нищеду (₽) *</label>
                       <input
                         required
                         type="number"
